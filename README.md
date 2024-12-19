@@ -69,4 +69,3 @@ Further Development
 
 Developed & Designed By :
 FEROZ MAHMUD
-Contact : Mahmud.Feroz2000@Gmail.Com
