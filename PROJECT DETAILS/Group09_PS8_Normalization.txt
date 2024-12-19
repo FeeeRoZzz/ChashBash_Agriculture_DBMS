@@ -1,0 +1,6 @@
+The relational schema provided above is already in normalized form as it complies with the normalization 
+1NF: The schema needs to be set up so that there are no repeated groups and a primary key for every 
+2NF:No non-key attribute in the schema may depend entirely on the composite main key. 
+3NF: There cannot be any transitive dependencies in the schema. 
+BCNF: A non-key in the schema cannot identify a candidate key or a portion of it. 
+Our schema complies with all the normalization protocols mentioned above. 
