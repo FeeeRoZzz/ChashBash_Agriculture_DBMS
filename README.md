@@ -69,9 +69,4 @@ Further Development
 
 Developed & Designed By :
 FEROZ MAHMUD
-
-Implement user authentication and authorization with password hashing for secure logins.
-Integrate third-party services for enhanced functionality (e.g., Google Maps for location awareness, SMS/email notifications).
-Explore more advanced data visualization techniques and interactive dashboards for deeper insights.
-Consider incorporating mobile app development for on-the-go access for farmers and other mobile users.
-This comprehensive README.md provides a clear overview of your Chashbash
+Contact : Mahmud.Feroz2000@Gmail.Com
