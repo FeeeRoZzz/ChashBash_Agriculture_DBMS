@@ -1,0 +1,121 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a2634; /* Dark Navy Blue */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Navy Blue Gradient */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    width: 100%;
+    background: #1a2634;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    font-size: 1.8rem;
+    color: #ecf0f1;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #4b6273;
+}
+
+/* Welcome Container Styles */
+.welcome-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 90%;
+    animation: fadeIn 2s ease-in-out;
+    margin-top: 5rem;
+}
+
+.welcome-container h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #bdc3c7;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .welcome-container {
+        padding: 2rem;
+    }
+
+    .welcome-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome-container p {
+        font-size: 1rem;
+    }
+}
